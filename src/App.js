@@ -14,10 +14,10 @@ function App() {
             <div className="routes">
                 <Routes>
                   <Route exalt path="/" element={ <HomePage/>} />
-                  <Route path="/Exchanges" element={<Exchanges/>} />
-                  <Route path="/Cryptocurrencies" element={<Cryptocurrencies/>} />
-                  <Route path="/crypto/:coinId" element={ <CryptoDetails/>} />
-                  <Route path="/News" element={<News/>} />    
+                  <Route exalt path="/Exchanges" element={<Exchanges/>} />
+                  <Route exalt path="/Cryptocurrencies" element={<Cryptocurrencies/>} />
+                  <Route exalt path="/Cryptocurrencies/:coinId" element={ <CryptoDetails/>} />
+                  <Route exalt path="/News" element={<News/>} />    
                 </Routes>
             </div>
         </Layout>
