@@ -16,7 +16,7 @@ function App() {
                   <Route exalt path="/" element={ <HomePage/>} />
                   <Route path="/Exchanges" element={<Exchanges/>} />
                   <Route path="/Cryptocurrencies" element={<Cryptocurrencies/>} />
-                  <Route path="/Crypto/coin:Id" element={ <CryptoDetails/>} />
+                  <Route path="/crypto/:coinId" element={ <CryptoDetails/>} />
                   <Route path="/News" element={<News/>} />    
                 </Routes>
             </div>
